@@ -1,0 +1,53 @@
+*{
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.destination {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.destination img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
+.destination-info {
+    padding: 20px;
+}
+
+.destination-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
